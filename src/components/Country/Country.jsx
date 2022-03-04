@@ -120,9 +120,7 @@ const Country = () => {
 						</div>
 					</div>
 					{singleCountry.length > 0 ? (
-						<div
-							className={dark ? "dark countryContainer" : "countryContainer"}
-						>
+						<div className='countryContainer'>
 							{singleCountry.map((country, index) => {
 								return (
 									<div key={index} className='countryContainer'>
