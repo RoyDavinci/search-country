@@ -1,0 +1,78 @@
+.countryDetail {
+	margin: 10px 0px;
+	padding: 15px;
+}
+.back {
+	background-color: hsl(0, 0%, 100%);
+	padding: 10px;
+	font-size: 22px;
+	color: black;
+	margin: 15px 0px;
+	display: block;
+	width: 40%;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.countryDetails-containerPersonal,
+.countryDetails-containerDomain {
+	margin: 10px 0px;
+	line-height: 2rem;
+}
+
+.border-span {
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.span {
+	background-color: white;
+	margin: 5px 0px;
+}
+.language-span {
+	margin: 0px 5px;
+}
+.countryDetails {
+	margin: 20px 0px;
+}
+.oval {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+
+@media screen and (min-width: 850px) {
+	.countryDetails {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+	.countryDetails img {
+		height: 100%;
+	}
+	.countryDetails-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+	.countryDetails-containerDomain {
+		margin-top: 80px;
+	}
+	.back {
+		width: 15%;
+	}
+}
+@media screen and (min-width: 500px) {
+	.back {
+		width: 22%;
+	}
+}
+.light {
+	color: hsl(0, 0%, 100%);
+}
+.dark {
+	background-color: hsl(209, 23%, 22%);
+	color: hsl(0, 0%, 100%);
+}

@@ -1,0 +1,82 @@
+.mode {
+	display: flex;
+}
+main {
+	padding: 20px;
+}
+.searchCountry-container {
+	background-color: hsl(0, 0%, 100%);
+	padding: 15px 10px;
+	border-radius: 5px;
+	margin: 10px 0px;
+}
+.searchCountry-container input {
+	padding: 0px 10px;
+}
+.form,
+.form:focus {
+	background-color: hsl(0, 0%, 100%);
+	padding: 15px 10px;
+	border-radius: 5px;
+	margin: 10px 0px;
+}
+.selectCountry-container select option {
+	/* border: 1px solid #ccc; */
+	font-size: 17px;
+}
+.country {
+	background-color: hsl(0, 0%, 100%);
+	margin: 20px 0px;
+	display: block;
+	color: black;
+}
+.country img {
+	width: 100%;
+}
+.country article {
+	padding: 20px;
+	line-height: 2rem;
+}
+.countryContainer {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 20px;
+}
+.error {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	text-align: center;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.dark {
+	background-color: hsl(209, 23%, 22%);
+	color: hsl(0, 0%, 100%);
+}
+@media screen and (min-width: 800px) {
+	.formCountry-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.selectCountry-container {
+		display: flex;
+		justify-content: space-between;
+		gap: 15px;
+	}
+}
+
+@media screen and (max-width: 799px) {
+	.form {
+		width: 30%;
+	}
+}
+@media screen and (max-width: 620px) {
+	.form {
+		width: 50%;
+	}
+}
+.country:hover {
+	transform: scale(1.1);
+}
