@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/css-react-2f6000P1p)
 - Live Site URL: [Add live site URL here](https://search-country-two.vercel.app/)
 
 ## My process
